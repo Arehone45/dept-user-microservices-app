@@ -11,6 +11,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class ResponseDto {
 
-    private DepartmentDto departmentDto;
-    private UserDto userDto;
+    private UserDto user;
+    private DepartmentDto department;
 }
